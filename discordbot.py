@@ -15,7 +15,7 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 async def yuuta(ctx):
-    await ctx.send('僕もそう思います')
+    await ctx.send('いやそれは違うんじゃあないかと。')
 
 
 bot.run(token)
