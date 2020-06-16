@@ -18,7 +18,7 @@ async def on_command_error(ctx, error):
 async def yuuta(ctx):
     await ctx.send('いやそれは違うんじゃあないかと。')
     
- @bot.command()
+@bot.command()
 async def fujii(ctx , msg):
     
     img=makeyupoline.img_add_msg("./yupoline.png", msg ,#FF5555,30)
