@@ -22,9 +22,9 @@ async def yuuta(ctx):
 @bot.command()
 async def hima(ctx,msg):
     answer='漫画読もう'
-    if (msg='ゲーム'):
+    if msg=='ゲーム':
         answer='VALORANT'
-    else if (msg='付き合って'):
+    else if msg=='付き合って':
         answer='喜んで♡'
     await ctx.send(answer)
     
