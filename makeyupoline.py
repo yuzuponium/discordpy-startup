@@ -7,7 +7,7 @@ import math
 
 # 画像に文字を入れる関数
 def img_add_msg(img, message, fontcolor = "#FF5555", fontsize = 30):
-    font_path = './fonts/Noto.otf'
+    font_path = './Noto.otf'
     fontcustom = ImageFont.truetype(font_path, fontsize, 0, encoding='utf-8')
     img = Image.open(img).convert("RGBA")
     bg = Image.new("RGBA", (320,320), (0,0,0,0))
