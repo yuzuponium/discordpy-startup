@@ -20,6 +20,15 @@ async def yuuta(ctx):
     await ctx.send('いやそれは違うんじゃあないかと。')
     
 @bot.command()
+async def hima(ctx,msg):
+    answer='漫画読もう'
+    if (msg='ゲーム'):
+        answer='VALORANT'
+    else if (msg='付き合って'):
+        answer='喜んで♡'
+    await ctx.send(answer)
+    
+@bot.command()
 async def fujii(ctx , msg):
     
     img=makeyupoline.img_add_msg("./yupoline.png", msg ,"#FF5555",30)
