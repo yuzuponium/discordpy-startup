@@ -1,7 +1,5 @@
 # coding: utf-8
 from PIL import Image, ImageFont, ImageDraw
-#import cv2
-import numpy as np
 import sys
 import math
 
