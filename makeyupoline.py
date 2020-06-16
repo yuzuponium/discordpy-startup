@@ -12,8 +12,8 @@ def img_add_msg(img, message, fontcolor = "#FF5555", fontsize = 30):
     draw = ImageDraw.Draw(bg)
     w , h = draw.textsize(message, font=fontcustom)
     while(w > 320):
-        font_size -= 1
-        fontcustom = ImageFont.truetype(font_path, font_size, 0, encoding='utf-8')
+        fontsize -= 1
+        fontcustom = ImageFont.truetype(font_path, fontsize, 0, encoding='utf-8')
         w , h = draw.textsize(message, font=fontcustom)
     x = (320 - w)/2
     y = 250
