@@ -20,7 +20,7 @@ async def yuuta(ctx):
     await ctx.send('いやそれは違うんじゃあないかと。')
     
 @bot.command()
-async def hima(ctx,msg):
+async def hima(ctx,msg='a'):
     answer='漫画読もう'
     if msg=='ゲーム':
         answer='VALORANT'
