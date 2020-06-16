@@ -21,7 +21,7 @@ async def yuuta(ctx):
 @bot.command()
 async def fujii(ctx , msg):
     
-    img=makeyupoline.img_add_msg("./yupoline.png", msg ,#FF5555,30)
+    img=makeyupoline.img_add_msg("./yupoline.png", msg ,"#FF5555",30)
     img.save("./yupoline_res.png")
     await ctx.send(file=discord.File("./yupoline_res.png))
 
