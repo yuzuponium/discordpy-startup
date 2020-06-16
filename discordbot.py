@@ -15,7 +15,7 @@ async def yuuta(ctx):
 @bot.command()
 async def hima(ctx,msg='a'):
     answer='漫画読もう'
-    if msg=='ゲーム':
+    if msg=='*ゲーム*':
         answer='VALORANT'
     elif msg=='付き合って':
         answer='喜んで♡'
