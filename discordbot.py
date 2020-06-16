@@ -24,7 +24,7 @@ async def hima(ctx,msg):
     answer='漫画読もう'
     if msg=='ゲーム':
         answer='VALORANT'
-    elif if msg=='付き合って':
+    elif msg=='付き合って':
         answer='喜んで♡'
     await ctx.send(answer)
     
