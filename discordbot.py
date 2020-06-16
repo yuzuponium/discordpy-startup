@@ -2,6 +2,7 @@ from discord.ext import commands
 import os
 import traceback
 import makeyupoline
+import discord
 from PIL import Image, ImageFont, ImageDraw
 bot = commands.Bot(command_prefix='?')
 token = os.environ['DISCORD_BOT_TOKEN']
