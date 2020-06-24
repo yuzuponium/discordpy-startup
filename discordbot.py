@@ -19,8 +19,8 @@ async def hima(ctx,msg='a'):
         answer='VALORANT'
     elif msg=='付き合って':
         answer='喜んで♡'
-    elif msg='うんこ'
-        answer='カレーのことかな？':
+    elif msg='うんこ':
+        answer='カレーのことかな？'
     await ctx.send(answer)
     
 @bot.command()
